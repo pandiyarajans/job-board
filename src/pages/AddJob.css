@@ -1,0 +1,47 @@
+.create_job_title {
+  font-family: 'Nexa-Regular';
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.create_job_step {
+  font-family: 'Nexa-Regular';
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.input_title {
+  color: var(--font-dark-212121, #212121);
+  font-size: 14px;
+  font-family: "Nexa-Regular";
+  line-height: 20px;
+}
+
+.input_field {
+  font-size: 14px;
+  font-family: "Nexa-Regular";
+}
+
+.next_text {
+  color: var(--white, #FFF);
+  font-family: "Nexa-Regular";
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.next_text_button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  align-self: flex-end;
+  margin-top: 92px;
+}
+
+.radio_text {
+  color: var(--font-grey-27-a-7-a-7-a, #7A7A7A);
+  font-size: 14px;
+  font-family: "Nexa-Regular";
+  margin-top: 1px;
+  line-height: 20px;
+}

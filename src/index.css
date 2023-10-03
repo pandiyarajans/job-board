@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Nexa-Bold;
+  src: url('../public/font/Nexa-Bold.woff2') format("woff2");
+  font-weight: 400;
+  font-style: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-Book;
+  src: url('../public/font/Nexa-Book.woff2') format("woff2");
+  font-weight: "normal";
+  font-style: "normal";
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-ExtraBold;
+  src: url('../public/font/Nexa-ExtraBold.woff2') format("woff2");
+  font-style: "bold";
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-Heavy;
+  src: url('../public/font/Nexa-Heavy.woff2') format("woff2");
+  font-weight: "normal";
+  font-style: "normal";
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-Regular;
+  src: url('../public/font/Nexa-Regular.woff2') format("woff2");
+  font-weight: "normal";
+  font-style: "normal";
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-RegularItalic;
+  src: url('../public/font/Nexa-RegularItalic.woff2') format("woff2");
+  font-weight: "normal";
+  font-style: "normal";
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-TextBold;
+  src: url('../public/font/Nexa-TextBold.woff2') format("woff2");
+  font-weight: "normal";
+  font-style: "bold";
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-TextBoldItalic;
+  src: url('../public/font/Nexa-TextBoldItalic.woff2') format("woff2");
+  font-weight: "normal";
+  font-style: "normal";
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-TextBook;
+  src: url('../public/font/Nexa-TextBook.woff2') format("woff2");
+  font-weight: "normal";
+  font-style: "normal";
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-TextExtraBold;
+  src: url('../public/font/Nexa-TextExtraBold.woff2') format("woff2");
+  font-style: "bold";
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-TextExtraBoldItalic;
+  src: url('../public/font/Nexa-TextExtraBoldItalic.woff2') format("woff2");
+  font-weight: "normal";
+  font-style: "bold";
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-TextHeavyItalic;
+  src: url('../public/font/Nexa-TextHeavyItalic.woff2') format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-TextRegular;
+  src: url('../public/font/Nexa-TextRegular.woff2') format("woff2");
+  font-weight: "normal";
+  font-style: "normal";
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-TextRegularItalic;
+  src: url('../public/font/Nexa-TextRegularItalic.woff2') format("woff2");
+  font-weight: "normal";
+  font-style: "normal";
+  font-display: swap;
+}
+@font-face {
+  font-family: Nexa-Thin;
+  src: url('../public/font/Nexa-Thin.woff2') format("woff2");
+  font-weight: "normal";
+  font-style: "normal";
+  font-display: swap;
+}
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../public/font/Poppins-Regular.ttf') format("ttf");
+  font-weight: "normal";
+  font-style: "normal";
+  font-display: swap;
+}
+
+*::-webkit-scrollbar {
+   display: none;
+}

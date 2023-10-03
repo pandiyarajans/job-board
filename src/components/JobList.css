@@ -1,0 +1,80 @@
+.netflix_img {
+    height: 48px;
+    width: 48px;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid #DADEDF;
+    background: var(--elements-color-card-color-ffffff, #FFF);
+}
+
+.title {
+    color: #000;
+    font-family: "Nexa-Regular";
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.sub_title {
+    color: #000;
+    font-family: "Nexa-Regular";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.location {
+    color: var(--font-grey-27-a-7-a-7-a, #7a7a7a);
+    font-family: "Nexa-Regular";
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.job_time,
+.job_experience,
+.job_salary,
+.number_of_employees {
+    color: #212427;
+    font-family: "Nexa-Regular";
+    font-size: 16px;
+    margin-bottom: 8px;
+    line-height: 23px;
+}
+
+.Modal {
+    background-color: rgba(000, 000, 000, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.add_button{
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: "Nexa-Regular";
+}
+.apply_button{
+    font-family: "Nexa-Regular";
+}
+/*media query */
+@media all and (min-width:0px) {
+    .card_container {
+        padding: 16px;
+    }
+}
+
+@media all and (min-width:1024px) {
+    .card_container {
+        padding: 10px 16px;
+    }
+}
